@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        table {
+            margin: 50px auto;
+        }
+
+        table th,tr,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2" style="font-weight: bold; text-align: center;">TÍNH LƯƠNG NHÂN VIÊN</td>
+        </tr>
+
+        <tr>
+            <td>Tên nhân viên</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Số tháng làm việc</td>
+            <td><input type="text" id="STLV"></td>
+        </tr>
+
+        <tr>
+            <td>Hệ số lương</td>
+            <td><input type="text" readonly id="HSL"></td>
+        </tr>
+
+        <tr>
+            <td>Lương cơ bản</td>
+            <td><input type="text" readonly id="LCB"></td>
+        </tr>
+
+        <tr>
+            <td>Lương tháng</td>
+            <td><input type="text" readonly id="LT"></td>
+        </tr>
+
+        <tr>
+            <td>Thuế thu nhập</td>
+            <td><input type="text" readonly id="TTN"></td>
+        </tr>
+
+        <tr>
+            <td>Thực lĩnh</td>
+            <td><input type="text" readonly id="TL"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button style="padding: 4px;" id="tinhtien">Tính Tiền</button>
+                <button style="padding: 4px;" id="xoa">Xóa</button>
+            </td>
+        </tr>
+    </table>
+</body>
+<script src="./main.js"></script>
+</html>

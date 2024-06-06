@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+        }
+
+        form, table {
+            margin: 50px auto;
+        }
+        table, tr, td {
+            padding: 8px;
+        }
+
+         tr, td {
+            border: 1px solid  black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center; font-weight: bold;">TÍNH LƯƠNG NHÂN VIÊN 2023</td>
+            </tr>
+
+            <tr>
+                <td>Tên nhân viên</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Ngày công</td>
+                <td><input type="number" id="ngaycong"></td>
+            </tr>
+
+            <tr>
+                <td>Lương ngày</td>
+                <td><input type="number" readonly id="ln"></td>
+            </tr>
+
+            <tr>
+                <td>Lương tháng</td>
+                <td><input type="number" readonly id="lt"></td>
+            </tr>
+
+            <tr>
+                <td>Xếp loại nhân viên</td>
+                <td><input type="text" readonly id="xl"></td>
+            </tr>
+
+            <tr>
+                <td>Thưởng</td>
+                <td><input type="number" readonly id="thuong"></td>
+            </tr>
+
+            <tr>
+                <td>Thực lĩnh</td>
+                <td><input type="number" readonly id="thuclinh"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button id="tinhtien" type="button">Tính tiền</button>
+                    <button>Xóa</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>

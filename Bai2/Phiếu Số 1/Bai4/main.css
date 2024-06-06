@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: blue;
+    color: aliceblue;
+    height: 40px;
+}
+
+.nav {
+    background-color: black;
+    color: aliceblue;
+}
+
+.section {
+    background-color: red;
+    color: yellow;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+}
+

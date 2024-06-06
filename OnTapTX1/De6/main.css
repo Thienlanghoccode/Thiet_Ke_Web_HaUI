@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .search {
+    margin-top: 45px;
+}
+
+.header .search input {
+    width: 200px;
+    height: 30px;
+}
+
+.header .search select {
+    width: 150px;
+    height: 30px;
+}
+
+.header .right-content {
+    margin: 30px 10px 30px 0px;
+    background-color: #FF3399;
+    padding: 6px;
+}
+
+.header .right-content p {
+    padding: 8px;
+    color: white;
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav .menu .list-item {
+    list-style: none;
+    padding: 14px 60px;
+    position: relative;
+}
+
+.nav .menu .list-item a {
+    text-decoration: none;
+    color: white;
+}
+.nav .menu .list-item:hover .sub-menu {
+    display: block;
+}
+.nav .menu .list-item:hover {
+    background-color: blue;
+}
+
+.sub-menu {
+    background-color: black;
+    width: 200px;
+    top: 100%;
+    left: 0;
+}
+
+.sub-menu .list-item {
+    border-bottom: 1px solid aliceblue;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+}
+
+.section .left-section {
+    margin: 10px 10px;
+}
+.section .left-section h3 {
+    margin: 10px 0px;
+}
+
+.section .left-section .content .Titie {
+    margin: 10px 0px;
+}
+
+.section {
+    display: flex;
+}
+
+.right-section .wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+
+.right-section h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right-section .wrapper .content {
+    margin: 10px;
+}
+
+.right-section .wrapper .content .footer-section {
+    text-align: center;
+    background-color: #003366;
+    padding: 14px;
+}
+
+.footer-section .title {
+    color: yellow;
+}
+

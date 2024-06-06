@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+
+.header h2 {
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content .menu .list-item {
+    list-style: none;
+    background-color: rgb(29, 162, 97);
+    padding: 14px 12px;
+    font-weight: bold;
+    position: relative;
+    border-bottom: 1px solid aliceblue;
+}
+
+.sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 300px;
+    display: none;
+}
+
+.menu .list-item:hover {
+    background-color: red;
+}
+
+.menu .list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu .list-item:hover a {
+    color: yellow;
+}
+
+.menu .list-item:hover .sub-menu {
+    display: block;
+}
+
+.right-content {
+    background-color: blue;
+    margin: 20px 40px;
+    width: 900px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 15px auto;
+}
+
+table  {
+    margin: 0px auto;
+}
+
+table, tr, td {
+    padding: 14px;
+}
+
+tr, td {
+    text-align: right;
+}
+
+input {
+    width: 350px;
+}
+

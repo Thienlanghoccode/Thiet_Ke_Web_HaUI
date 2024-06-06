@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        form, table {
+            margin: 50px auto;
+        }
+
+        table {
+            border: 1px solid black;
+            width: 300px;
+            height: 100px;
+        }
+
+        td {
+            padding: 6px;
+            font-weight: bold;
+        }
+
+        td:last-child {
+            text-align: center;
+        }
+
+        td:last-child button {
+            margin: 0px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>Họ và tên: </td>
+                <td><input type="text" id="input"></td>
+            </tr>
+
+            <tr>
+                <td>Tên : </td>
+                <td><input type="text"id="result" readonly></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="button" id="btnHienthi">Hiển thị</button>
+                    <button>Hủy bỏ</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>

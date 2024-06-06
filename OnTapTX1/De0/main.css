@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px auto;
+    width: 1366px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #fbf5f9;
+    height: 130px;
+    position: relative;
+}
+
+.header .left-logo {
+    padding: 30px 70px;
+    height: 122%;
+    width: 32%;
+    float: left;
+}
+
+.input {
+    margin: 20px 0px 5px 500px;
+    padding: 14px;
+    width: 350px;
+    border-radius: 20px;
+    height: 35px;
+}
+
+.nav .list-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 5px 20px 0px;
+    border: 1px solid #fbf5f9;
+}
+
+.nav-item {
+    color: black;
+    background-color: #fbf5f9;
+}
+
+
+.list-item:hover {
+    border-radius: 10%;
+    border: 1px solid #ce0645;
+} 
+
+.list-item:hover .nav-item {
+    color: #ce0645;
+}
+
+.list-item:first-child {
+    border: 1px solid #ce0645;
+    border-radius: 10px;
+}
+
+.list-item:first-child a {
+    color: #ce0645;
+    padding: 8px;
+}
+
+.section {
+    position: absolute;
+    width: 1366px;
+}
+
+.banner {   
+    width: 1366px;
+    height: 300px;
+}
+
+.Title {
+    text-transform: uppercase;
+    text-align: center;
+    color:  #ce0645;
+    margin: 35px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.noidung {
+    background-color: #f3f3f3 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.noidung .content {
+    width: 200px;
+    margin: 20px 30px;
+}
+
+.content .crevil{
+    height: 200px;
+    width: 200px;
+}
+
+.content .header-content{
+    color:  #d00847;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content .main-content {
+    text-align: justify;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    padding: 14px;
+    font-size: 20px;
+    background-color: #cf0746;
+    color: white;
+}
+
+.banquyen {
+    margin-left: 250px;
+}
+
+.right-connect {
+    margin-right: 250px;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

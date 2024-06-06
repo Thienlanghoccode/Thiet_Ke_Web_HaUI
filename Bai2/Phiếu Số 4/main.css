@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1000px;
+}
+
+.wrapper .header img{
+    width: 100%;
+}
+
+.wrapper .nav {
+    display: block;
+    background-color: black;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.section img {
+    width: 50%;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.section .right-content {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 10px 10px;
+}

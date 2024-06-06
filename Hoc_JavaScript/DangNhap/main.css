@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    border: 1px solid black;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 8px;
+}
+
+.login-item {
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-item label {
+    font-weight: bold;
+}
+
+.btn {
+    text-align: center;
+    margin: 10px 0px;
+}

@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200;
+    height: auto;
+}
+
+.wrapper .header {
+    display: flex;
+    background-color: #CCFF33;
+}
+
+.header .left-img {
+    width: 100px;
+    border: 2px solid black;
+}
+
+.header .right-content {
+    margin-left: 450px;
+}
+
+.right-content p {
+    padding: 10px;
+    font-size: 30px;
+
+}
+.right-content .inner-title {
+    text-indent: 100px;
+}
+
+.nav {
+    background-color: #00FF00;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu .list-item{
+    padding: 20px 30px;
+}
+
+.nav ul li {
+    color: #0000C8;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    display: block;
+}
+
+.nav .container ul :hover{
+    background-color: white;
+}
+
+.nav .container ul .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 370px;
+    flex-direction: column;
+    display: none;
+}
+
+.sub-menu li {
+    padding: 14px;
+    border-bottom: 1px solid black;
+}
+
+.nav .container .menu li:hover .sub-menu {
+    display: block;
+    background-color: #00FF00;
+    color: #0000C8;
+}
+
+.section .wrapper{
+    background-color: #CCFF00;
+    display: flex   ;
+}
+.section .wrapper ul{
+    padding: 0;
+    width: 300px;
+    margin: 0;
+}
+
+.section .wrapper .left-content .title{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.section .wrapper .left-content {
+    font-size: 20px;
+    padding: 50px 0px 0px 100px;
+}
+.section .wrapper .right-content{
+    display: flex;
+    
+}
+.section .wrapper .right-content img {
+    width: 400px;
+    height: 300px;
+
+}
+
+.section .wrapper .right-content p {
+    font-size: 20px;
+}

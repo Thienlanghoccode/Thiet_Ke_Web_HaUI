@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+body {
+    text-align: center;
+    max-width: fit-content;
+}
+
+.content {
+    margin: 15px 0px;
+}
+
+hr {
+    border: 1px solid black;
+}

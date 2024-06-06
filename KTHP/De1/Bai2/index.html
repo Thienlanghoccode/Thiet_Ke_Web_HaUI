@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        form, table {
+            margin: 40px auto;
+        }
+        table {
+            padding: 14px;
+            border: 1px solid black;
+        }
+
+        td:first-child {
+            padding: 0px 18px;
+        }
+
+        td:last-child {
+            text-align: center;  
+        }
+
+        td:last-child button {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>Nhập chuỗi: </td>
+                <td><input type="text" name="" id="input"></td>
+            </tr>
+            
+            <tr>
+                <td>Số từ có 4 ký tự: </td>
+                <td><input type="text" id="res" readonly></td>
+            </tr>
+
+            <tr >
+                <td colspan="2">
+                    <button type="button" id="btnTim">Tìm</button>
+                    <button>Hủy bỏ</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+<script src="main.js"></script>
+</html>

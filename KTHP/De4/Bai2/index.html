@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        form, table {
+            margin: 50px auto;
+        }
+        tr,td {
+            padding: 8px;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center; font-weight: bold;">SẮP XẾP THEO QUY LUẬT</td>
+            </tr>
+            <tr>
+                <td>Nhập câu ban đầu: </td>
+                <td><input type="text" name="" id="input"></td>
+            </tr>
+            <tr>
+                <td>Câu sau khi sắp xếp lại: </td>
+                <td><input type="text" name="" id="result" readonly></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button>Xóa</button>
+                    <button type="button" id="vietlai">Viết lại</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script src="./main.js"></script>
+</html>

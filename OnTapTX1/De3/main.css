@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px auto;
+}
+
+.header .left-logo {
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #BEBEBE;
+    height: 100px;
+}
+
+.header p {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.header .icon ul li {
+    list-style: none;
+}
+
+.header .icon ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+    margin-right: 80px;
+}
+
+.header .icon ul li .fa-brands{
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.header .title {
+    font-weight: bold;
+}
+
+.header .contact {
+    text-indent: 30px;
+}
+
+.header .right-content {
+    padding: 28px 10px 0px 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .menu .list-item {
+    list-style: none;
+    padding: 14px 60px;
+    align-items: center;
+    position: relative;
+}
+
+.nav .right-search {
+    align-items: center;
+    padding: 14px;
+}
+
+.nav .right-search input {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.nav .right-search button {
+    width: 100px;
+}
+
+.nav .menu .list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-con {
+    position: absolute;
+    background-color: rgb(91, 86, 86);
+    top: 100%;
+    left: 0px;
+    display: none;
+}
+
+.menu-con li {
+    width: 210px;
+    list-style: none;
+    padding: 14px;
+    border-bottom: 1px solid rgb(228, 225, 225);
+}
+
+.menu li:hover .menu-con{
+    display: block;
+}
+
+.menu li:hover {
+    background-color: blue;
+}
+
+.section .first-section {
+    width: 100%;
+    height: 500px;
+}
+
+.section .second-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anh {
+    width: 50%;
+}
+
+.section .titile {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.second-section .content {
+    width: 400px;
+    align-items: center;
+    padding: 14px;
+    margin: 30px;
+}
+
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.footer .wrapper .content {
+    margin-left: 50px;
+    padding: 14px;
+}
+.footer .wrapper .content:last-child {
+    text-align: right;
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: white;
+}

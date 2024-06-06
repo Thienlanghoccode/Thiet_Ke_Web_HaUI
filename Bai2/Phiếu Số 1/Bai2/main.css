@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+}
+
+body .header img {
+    width: 80%;
+    align-items: center;
+}
+
+.body ul li {
+    display: block;
+    float: left;
+    padding: 8px 5px;
+}
+
+.body::after {
+    clear: both;
+    display: table;
+    content: "";
+}
